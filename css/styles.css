@@ -128,11 +128,10 @@ button:hover {
 
 .subscription-checkbox {
   align-self: center; /* Adjust alignment as needed */
-  width: 4vh; /* Increase the width to make the checkbox bigger */
-  height: 4vh; /* Increase the height to make the checkbox bigger */
   margin-left: 10px;
   margin-right: auto;
 }
+
 /* Context Menu Styles */
 .context-menu {
   position: absolute;
@@ -158,6 +157,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   max-height: 80vh;
+  max-width: 100vw;
   padding: 20px;
 }
 
@@ -169,4 +169,10 @@ button:hover {
 .search-add-container {
   align-items: baseline;
   padding-right: 20px;
+}
+@media (max-width: 768px) {
+  /* Increase the size of the checkboxes on mobile */
+  .subscription-checkbox {
+    transform: scale(2); /* You can adjust the scale factor to make the checkboxes bigger or smaller */
+  }
 }
