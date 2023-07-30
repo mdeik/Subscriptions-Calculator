@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+  background-color: #424946;
+  color: #cfdcdc;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+
+/* Subscription Box Styles */
+.subscription-box {
+  height: fit-content;
+  overflow-y: scroll;
+  border: 1px solid #cfdcdc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Search Bar Styles */
+#search-bar {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #cfdcdc;
+  background-color: #424946;
+  color: #cfdcdc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border-radius: 0px;
+  width: 200px;
+}
+
+#search-bar::placeholder {
+  color: #cfdcdc93;
+}
+
+/* Buttons Styles */
+button {
+  display: default;
+  padding: 9px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #5a83b3;
+  color: #cfdcdc;
+}
+
+button:hover {
+  background-color: #1d222b;
+}
+
+/* Expenses Styles */
+.expenses {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.expense {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.expense span {
+  font-size: 20px;
+}
+
+.expense .big-text {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.expense .number {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* Subscription Item Styles */
+.subscription-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.subscription-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.subscription-details {
+  display: flex;
+  flex-grow: 1;
+}
+
+.name-price-group {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.subscription-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subscription-price {
+  color: #cfdcdc93;
+}
+
+.custom-price-input {
+  width: 80px;
+  margin-left: 10px;
+  border: 1px solid #cfdcdc;
+  background-color: #424946;
+  color: #cfdcdc;
+}
+
+.custom-price-input::placeholder {
+  color: #cfdcdc93;
+}
+
+.subscription-checkbox {
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+/* Context Menu Styles */
+.context-menu {
+  position: absolute;
+  background-color: #424946;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px #0000004d;
+  padding: 5px;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.context-menu-option {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.context-menu-option:hover {
+  background-color: #20034663;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  padding: 20px;
+}
+
+.top-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.search-add-container {
+  align-items: baseline;
+  padding-right: 20px;
+}

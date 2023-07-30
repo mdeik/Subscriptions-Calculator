@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Subscription Calculator</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <h1>Subscription Calculator</h1>
+
+  <div class="container">
+    <div class="top-container">
+      <div class="search-add-container">
+        <input type="text" id="search-bar" placeholder="Search subscriptions">
+        <button id="add-button">Add Subscription</button>
+      </div>
+      <div class="expenses">
+        <div class="expense" id="daily-expense">
+          <span>Daily: <span class="big-text">$</span><span class="number">0.00</span></span>
+        </div>
+        <div class="expense" id="monthly-expense">
+          <span>Monthly: <span class="big-text">$</span><span class="number">0.00</span></span>
+        </div>
+        <div class="expense" id="yearly-expense">
+          <span>Yearly: <span class="big-text">$</span><span class="number">0.00</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="subscription-box" id="subscription-box"></div>
+    <button id="import-button">Import</button>
+    <button id="export-button">Export</button>
+    <button id="clear-button">Clear</button>
+  </div>
+
+  <script src="./js/subscriptions.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/buttons.js"></script>
+</body>
+</html>
