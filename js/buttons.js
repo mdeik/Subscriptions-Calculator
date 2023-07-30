@@ -69,7 +69,7 @@ const exportButton = document.getElementById('export-button');
 exportButton.addEventListener('click', function () {
   const jsonData = JSON.stringify(subscriptions, null, 2);
   const data = `const subscriptions = ${jsonData};`;
-  const blob = new Blob([data], { type: 'text/plain' });
+  const blob = new Blob([data], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
 
   const a = document.createElement('a');
