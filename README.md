@@ -14,6 +14,8 @@ The project consists of three main files:
 
 3. **buttons.js**: This JavaScript file manages the event listeners for various buttons, including adding, importing, exporting, and clearing subscriptions.
 
+4. **subscriptions.js**: This JavaScript file stores the default subscriptions.
+
 ## Usage
 
 ### Adding Subscriptions
