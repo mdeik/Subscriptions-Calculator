@@ -22,7 +22,7 @@ var subscriptions = [
   {
     name: "Amazon Prime Video",
     price: 8.99,
-    icon: "https://assets.materialup.com/uploads/4045167a-85e3-4787-a6d1-e91a32071bf7/preview.jpg",
+    icon: "https://m.media-amazon.com/images/I/31W9hs7w0JL.png",
   },
   {
     name: "Apple Arcade",
